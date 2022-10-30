@@ -1,0 +1,28 @@
+{
+    "factions": [
+        {
+            "id": 1,
+            "faction": "Scavengers",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 2,
+            "faction": "Ecologists",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 3,
+            "faction": "x-Corp",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 4,
+            "faction": "Free Society",
+            "bonus": "text",
+            "description": "Random text"
+        }
+    ]
+}

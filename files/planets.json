@@ -1,0 +1,644 @@
+{
+    "planets": [
+        {
+            "id": 1,
+            "sys_id": 1,
+            "pla_id": 1,
+            "system": "Omega Centaurus",
+            "planet": "Planet I",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 2,
+            "sys_id": 1,
+            "pla_id": 2,
+            "system": "Omega Centaurus",
+            "planet": "Planet II",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 3,
+            "sys_id": 1,
+            "pla_id": 3,
+            "system": "Omega Centaurus",
+            "planet": "Planet III",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 4,
+            "sys_id": 1,
+            "pla_id": 4,
+            "system": "Omega Centaurus",
+            "planet": "Planet IV",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 5,
+            "sys_id": 1,
+            "pla_id": 5,
+            "system": "Omega Centaurus",
+            "planet": "Planet V",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 6,
+            "sys_id": 2,
+            "pla_id": 1,
+            "system": "Beta Odysseus",
+            "planet": "Planet I",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 7,
+            "sys_id": 2,
+            "pla_id": 2,
+            "system": "Beta Odysseus",
+            "planet": "Planet II",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 8,
+            "sys_id": 2,
+            "pla_id": 3,
+            "system": "Beta Odysseus",
+            "planet": "Planet III",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 9,
+            "sys_id": 2,
+            "pla_id": 4,
+            "system": "Beta Odysseus",
+            "planet": "Planet IV",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 10,
+            "sys_id": 2,
+            "pla_id": 5,
+            "system": "Beta Odysseus",
+            "planet": "Planet V",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 11,
+            "sys_id": 3,
+            "pla_id": 1,
+            "system": "Alpha Draconis",
+            "planet": "Planet I",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 12,
+            "sys_id": 3,
+            "pla_id": 2,
+            "system": "Alpha Draconis",
+            "planet": "Planet II",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 13,
+            "sys_id": 3,
+            "pla_id": 3,
+            "system": "Alpha Draconis",
+            "planet": "Planet III",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 14,
+            "sys_id": 3,
+            "pla_id": 4,
+            "system": "Alpha Draconis",
+            "planet": "Planet IV",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 15,
+            "sys_id": 3,
+            "pla_id": 5,
+            "system": "Alpha Draconis",
+            "planet": "Planet V",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 16,
+            "sys_id": 4,
+            "pla_id": 1,
+            "system": "Hydrus Cloud Node",
+            "planet": "Planet I",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 17,
+            "sys_id": 4,
+            "pla_id": 2,
+            "system": "Hydrus Cloud Node",
+            "planet": "Planet II",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 18,
+            "sys_id": 4,
+            "pla_id": 3,
+            "system": "Hydrus Cloud Node",
+            "planet": "Planet III",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 19,
+            "sys_id": 4,
+            "pla_id": 4,
+            "system": "Hydrus Cloud Node",
+            "planet": "Planet IV",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 20,
+            "sys_id": 4,
+            "pla_id": 5,
+            "system": "Hydrus Cloud Node",
+            "planet": "Planet V",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 21,
+            "sys_id": 5,
+            "pla_id": 1,
+            "system": "Halo Sector",
+            "planet": "Planet I",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 22,
+            "sys_id": 5,
+            "pla_id": 2,
+            "system": "Halo Sector",
+            "planet": "Planet II",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 23,
+            "sys_id": 5,
+            "pla_id": 3,
+            "system": "Halo Sector",
+            "planet": "Planet III",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 24,
+            "sys_id": 5,
+            "pla_id": 4,
+            "system": "Halo Sector",
+            "planet": "Planet IV",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 25,
+            "sys_id": 5,
+            "pla_id": 5,
+            "system": "Halo Sector",
+            "planet": "Planet V",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 26,
+            "sys_id": 6,
+            "pla_id": 1,
+            "system": "Deeprax Nebula",
+            "planet": "Planet I",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 27,
+            "sys_id": 6,
+            "pla_id": 2,
+            "system": "Deeprax Nebula",
+            "planet": "Planet II",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 28,
+            "sys_id": 6,
+            "pla_id": 3,
+            "system": "Deeprax Nebula",
+            "planet": "Planet III",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 29,
+            "sys_id": 6,
+            "pla_id": 4,
+            "system": "Deeprax Nebula",
+            "planet": "Planet IV",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 30,
+            "sys_id": 6,
+            "pla_id": 5,
+            "system": "Deeprax Nebula",
+            "planet": "Planet V",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 31,
+            "sys_id": 7,
+            "pla_id": 1,
+            "system": "Elkien Cluster",
+            "planet": "Planet I",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 32,
+            "sys_id": 7,
+            "pla_id": 2,
+            "system": "Elkien Cluster",
+            "planet": "Planet II",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 33,
+            "sys_id": 7,
+            "pla_id": 3,
+            "system": "Elkien Cluster",
+            "planet": "Planet III",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 34,
+            "sys_id": 7,
+            "pla_id": 4,
+            "system": "Elkien Cluster",
+            "planet": "Planet IV",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 35,
+            "sys_id": 7,
+            "pla_id": 5,
+            "system": "Elkien Cluster",
+            "planet": "Planet V",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 36,
+            "sys_id": 8,
+            "pla_id": 1,
+            "system": "Dorado System",
+            "planet": "Planet I",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 37,
+            "sys_id": 8,
+            "pla_id": 2,
+            "system": "Dorado System",
+            "planet": "Planet II",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 38,
+            "sys_id": 8,
+            "pla_id": 3,
+            "system": "Dorado System",
+            "planet": "Planet III",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 39,
+            "sys_id": 8,
+            "pla_id": 4,
+            "system": "Dorado System",
+            "planet": "Planet IV",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        },
+        {
+            "id": 40,
+            "sys_id": 8,
+            "pla_id": 5,
+            "system": "Dorado System",
+            "planet": "Planet V",
+            "population": "5",
+            "resources": {
+                "credits": "2",
+                "food": "0",
+                "water": "1",
+                "ore": "0",
+                "fuel": "1"
+            },
+            "description": "Random text"
+        }
+    ]
+}
