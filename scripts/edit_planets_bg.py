@@ -2,7 +2,6 @@ from PIL import Image
 import os
 
 
-print (os.getcwd())
 temp_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\temp')
 save_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\temp\\planets')
 
