@@ -3,10 +3,10 @@ import json, os
 
 
 # Settings
-files_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files')
-icons_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\icons')
-temp_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\temp')
-save_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\cards')
+files_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files')
+icons_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\icons')
+temp_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\temp')
+save_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\cards')
   
 f = open(os.path.join(files_folder,'planets.json'))
 planets = json.load(f)
@@ -47,7 +47,7 @@ for i in planets['planets']:
     new_card.paste(base_img, (0, 0))
 
     # Load Ilustration
-    img_path = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\temp\\planets', str(i['id']) + '.png')
+    img_path = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\temp\\planets', str(i['id']) + '.png')
     planet_image = Image.open(img_path)
     ratio = planet_image.size[0]/planet_image.size[1]
     newsize = (body_size[0], int(body_size[0]/ratio))

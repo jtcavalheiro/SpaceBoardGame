@@ -3,10 +3,10 @@ import json, os
 
 
 # Settings
-files_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files')
-icons_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\icons')
-temp_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\temp')
-save_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\player_mat')
+files_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files')
+icons_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\icons')
+temp_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\temp')
+save_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\player_mat')
 
 f = open(os.path.join(files_folder,'factions.json'))  
 factions = json.load(f)
@@ -61,13 +61,24 @@ for i in factions['factions']:
     y_pos = (card_size[1] / 2.2 ) - 70
     yy_pos = y_pos + n_size[1]  + 100
     draw.rectangle((x_pos, y_pos , xx_pos, yy_pos), fill='#71A9A4', outline=(0, 0, 0))
-  
+
+    # Ship text
+    x_pos = bord_size + 10
+    y_pos = (card_size[1] / 2.2 ) - 60
+    draw.text(((new_card.width-w)/2, 40), 'Ship Tech', font=font, fill='black')
+
+
     # Civ outer
     x_pos = (card_size[0]/2) - (((5 * n_size[0] ) + (4*75))/2) + ((3 * n_size[0] ) + (2*75)) + 45
     xx_pos =card_size[0] - bord_size
     y_pos = (card_size[1] / 2.2 ) - 70
     yy_pos = y_pos + n_size[1]  + 100
     draw.rectangle((x_pos, y_pos , xx_pos, yy_pos), fill='#71A979', outline=(0, 0, 0))    
+
+    # Civ text
+    x_pos = (card_size[0]/2) - (((5 * n_size[0] ) + (4*75))/2) + ((3 * n_size[0] ) + (2*75)) + 55
+    y_pos = (card_size[1] / 2.2 ) - 60
+    draw.text(((new_card.width-w)/2, 40), 'Civ Tech', font=font, fill='black')
 
     # Cards Slots
     x_pos = (card_size[0]/2) - (((5 * n_size[0] ) + (4*75))/2)

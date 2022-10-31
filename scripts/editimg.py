@@ -3,8 +3,8 @@ import os
 
 
 print (os.getcwd())
-data_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\original_planets')
-save_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\temp\\planets')
+data_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\original_planets')
+save_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\temp\\planets')
 
 files = os.listdir(data_folder)
 

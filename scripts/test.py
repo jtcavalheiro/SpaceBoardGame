@@ -2,9 +2,9 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 import json, os
 
 
-icons_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\icons')
-temp_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\temp')
-save_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\cards')
+icons_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\icons')
+temp_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\temp')
+save_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\cards')
 
 card_size = (630,880)
 bord_size = 25

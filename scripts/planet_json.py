@@ -1,6 +1,6 @@
 import json, os
 
-save_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files')
+save_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files')
 
 
 planets_json = {'planets':[]}

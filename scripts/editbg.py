@@ -3,8 +3,8 @@ import os
 
 
 print (os.getcwd())
-temp_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\temp')
-save_folder = os.path.join(os.getcwd(), 'Work\\TableTop\\files\\temp\\planets')
+temp_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\temp')
+save_folder = os.path.join(os.getcwd(), 'SpaceBoardGame\\files\\temp\\planets')
 
 bg_img = Image.open(os.path.join(temp_folder, 'bg2.jpg'))
 size = bg_img.size
