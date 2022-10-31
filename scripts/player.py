@@ -55,41 +55,62 @@ for i in factions['factions']:
     h = u + b
     draw.text(((new_card.width-w)/2, 40), faction_name, font=font, fill='black')
 
+# Tech Cards
+    n_ship = 3
+    n_civ = 2
+    n_cards = n_ship + n_civ
+    spacing = 75
+
     # Ship outer
     x_pos = bord_size
-    xx_pos =(card_size[0]/2) - (((5 * n_size[0] ) + (4*75))/2) + ((3 * n_size[0] ) + (2*75)) + 30
+    xx_pos =(card_size[0]/2) - (((n_cards * n_size[0] ) + ((n_cards - 1)*spacing))/2) + ((n_ship * n_size[0] ) + (2 * spacing)) + 30
     y_pos = (card_size[1] / 2.2 ) - 70
     yy_pos = y_pos + n_size[1]  + 100
     draw.rectangle((x_pos, y_pos , xx_pos, yy_pos), fill='#71A9A4', outline=(0, 0, 0))
 
     # Ship text
+    font = ImageFont.truetype("arial.ttf", 50)
     x_pos = bord_size + 10
     y_pos = (card_size[1] / 2.2 ) - 60
-    draw.text(((new_card.width-w)/2, 40), 'Ship Tech', font=font, fill='black')
-
+    draw.text((x_pos, y_pos), 'Ship Tech', font=font, fill='black')
 
     # Civ outer
-    x_pos = (card_size[0]/2) - (((5 * n_size[0] ) + (4*75))/2) + ((3 * n_size[0] ) + (2*75)) + 45
+    x_pos = (card_size[0]/2) - (((n_cards * n_size[0] ) + ((n_cards - 1) * spacing))/2) + ((n_ship * n_size[0] ) + (2*spacing)) + 45
     xx_pos =card_size[0] - bord_size
     y_pos = (card_size[1] / 2.2 ) - 70
     yy_pos = y_pos + n_size[1]  + 100
     draw.rectangle((x_pos, y_pos , xx_pos, yy_pos), fill='#71A979', outline=(0, 0, 0))    
 
     # Civ text
-    x_pos = (card_size[0]/2) - (((5 * n_size[0] ) + (4*75))/2) + ((3 * n_size[0] ) + (2*75)) + 55
+    font = ImageFont.truetype("arial.ttf", 50)
+    x_pos = (card_size[0]/2) - (((n_cards * n_size[0] ) + ((n_cards - 1) * spacing))/2) + ((n_ship * n_size[0] ) + (2*spacing)) + 55
     y_pos = (card_size[1] / 2.2 ) - 60
-    draw.text(((new_card.width-w)/2, 40), 'Civ Tech', font=font, fill='black')
+    draw.text((x_pos, y_pos), 'Civ Tech', font=font, fill='black')
 
     # Cards Slots
-    x_pos = (card_size[0]/2) - (((5 * n_size[0] ) + (4*75))/2)
-    for ii in range(5):
+    n_cards = 5
+    x_pos = (card_size[0]/2) - (((n_cards * n_size[0] ) + ((n_cards - 1) * spacing))/2)
+    for ii in range(n_cards):
         cur = ii + 1
         xx_pos = x_pos + n_size[0]
         y_pos = (card_size[1] / 2.2 )
         yy_pos = y_pos + n_size[1]
         draw.rectangle((x_pos, y_pos , xx_pos, yy_pos), fill='gray', outline=(0, 0, 0))
-        x_pos = xx_pos + 75
+        x_pos = xx_pos + spacing
 
+
+    # Fuel Slots
+    fuel_size = 100
+    fuel_slots = 10
+    spacing = 10
+    x_pos = (card_size[0]/2) - (((fuel_slots * fuel_size ) + ((fuel_slots - 1) * spacing))/2)
+    for ii in range(fuel_slots):
+        cur = ii + 1
+        xx_pos = x_pos + fuel_size
+        y_pos = (card_size[1] / 5)
+        yy_pos = y_pos + fuel_size
+        draw.rectangle((x_pos, y_pos , xx_pos, yy_pos), fill='black', outline=(0, 0, 0))
+        x_pos = xx_pos + spacing   
 
     card_name= 'player_' + str(i['id']) + '.png'
     new_card.save(os.path.join(save_folder, card_name))

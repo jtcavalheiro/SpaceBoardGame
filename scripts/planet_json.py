@@ -39,8 +39,7 @@ for i in range(8):
                             'credits' : '2',
                             'food': '0',
                             'water': '1',
-                            'ore': '0',
-                            'fuel': '1'
+                            'ore': '1'
                         },
             'description' : 'Random text'
         }
