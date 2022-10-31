@@ -1,0 +1,244 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "action": "debris",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 2,
+            "action": "debris",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 3,
+            "action": "debris",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 4,
+            "action": "debris",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 5,
+            "action": "debris",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 6,
+            "action": "debris",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 7,
+            "action": "debris",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 8,
+            "action": "debris",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 9,
+            "action": "debris",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 10,
+            "action": "debris",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 11,
+            "action": "planets",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 12,
+            "action": "planets",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 13,
+            "action": "planets",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 14,
+            "action": "planets",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 15,
+            "action": "planets",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 16,
+            "action": "planets",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 17,
+            "action": "planets",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 18,
+            "action": "planets",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 19,
+            "action": "planets",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 20,
+            "action": "planets",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 21,
+            "action": "asteroid",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 22,
+            "action": "asteroid",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 23,
+            "action": "asteroid",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 24,
+            "action": "asteroid",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 25,
+            "action": "asteroid",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 26,
+            "action": "asteroid",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 27,
+            "action": "asteroid",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 28,
+            "action": "asteroid",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 29,
+            "action": "asteroid",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 30,
+            "action": "asteroid",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 31,
+            "action": "accident",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 32,
+            "action": "accident",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 33,
+            "action": "accident",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 34,
+            "action": "accident",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 35,
+            "action": "accident",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 36,
+            "action": "accident",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 37,
+            "action": "accident",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 38,
+            "action": "accident",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 39,
+            "action": "accident",
+            "bonus": "text",
+            "description": "Random text"
+        },
+        {
+            "id": 40,
+            "action": "accident",
+            "bonus": "text",
+            "description": "Random text"
+        }
+    ]
+}
